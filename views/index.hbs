@@ -99,14 +99,14 @@
 
             <div class="d-flex d-md-none flex-row justify-content-around" style="width: 100%;">
                 <a class="btn" onclick="lowVolumn()" type="button" name="Hover"><i class="fas fa-minus"></i></a>
-                <a class="btn" onclick="togglePlay()" type="button"><i id="iconPlay" class="fas fa-play"></i></a>
+                <a class="btn" onclick="togglePlay()" type="button"><i id="iconPlay1" class="fas fa-play"></i></a>
                 <a class="btn" onclick="highVolumn()" id='btnMore' type="button" name="Hover"><i
                         class="fas fa-plus"></i></a>
             </div>
 
             <div class="d-none d-md-flex flex-row justify-content-around" style="width: 40%;">
                 <a class="btn" onclick="lowVolumn()" type="button" name="Hover"><i class="fas fa-minus"></i></a>
-                <a class="btn" onclick="togglePlay()" type="button"><i id="iconPlay" class="fas fa-play"></i></a>
+                <a class="btn" onclick="togglePlay()" type="button"><i id="iconPlay2" class="fas fa-play"></i></a>
                 <a class="btn" onclick="highVolumn()" id='btnMore' type="button" name="Hover"><i
                         class="fas fa-plus"></i></a>
             </div>
@@ -127,7 +127,8 @@
         <script>
             var myAudio = document.getElementById("player");
             var isPlaying = false;
-            var icon_play = document.getElementById("iconPlay");
+            var icon_play1 = document.getElementById("iconPlay1");
+            var icon_play2 = document.getElementById("iconPlay2");
 
             function togglePlay() {
                 if (isPlaying) {
@@ -150,11 +151,13 @@
 
             myAudio.onplaying = function () {
                 isPlaying = true;
-                icon_play.className = "fas fa-pause";
+                icon_play1.className = "fas fa-pause";
+                icon_play2.className = "fas fa-pause";
             };
             myAudio.onpause = function () {
                 isPlaying = false;
-                icon_play.className = "fas fa-play";
+                icon_play1.className = "fas fa-play";
+                icon_play2.className = "fas fa-play";
             };
         </script>
     </div>
