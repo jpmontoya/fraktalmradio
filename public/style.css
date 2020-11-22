@@ -1,0 +1,386 @@
+body{
+    background-image: url("images/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    padding: 8px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 8px;
+}
+
+nav li a:hover{
+    color: #D62121;
+    text-decoration: none;
+}
+
+.active{
+  color: #D62121;
+  text-decoration: none;
+}
+
+.btn{
+    color:#9e1919;
+    border-color: #9e1919;
+    height:60px;
+    width:60px;
+    font-size: 1.5rem;
+    border: 0.2rem solid;
+    outline: 0px;
+}
+
+.btn:hover{
+    color: black;
+    background-color: #9e1919;
+    border-color: #9e1919;
+    height:60px;
+    width:60px;
+    font-size: 1.7rem;
+    outline: 0px;
+}
+
+.btn:active{
+  color: white;
+}
+
+.imgBanner{
+    cursor: pointer;
+}
+
+.par{
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.titleShape1 {
+  font-size: 38px;
+  color: white;
+  text-align: center;
+  width: 40%;
+  height: 3vw;
+  background-color: #9e1919;
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+
+.titleShape2 {
+  font-size: 38px;
+  color: white;
+  text-align: center;
+  width: 40%;
+  margin-left: 60%;
+  height: 3vw;
+  background-color: #9e1919;
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+
+.bandTitle{
+  color: #D62121;
+  font-weight: bold; 
+  font-size: 30px;
+}
+
+.bandInfo{
+  color: white;
+  font-weight: 400; 
+  font-size: 25px;
+}
+
+.frameVideo{
+  width: 40%;
+  height: 20vw;
+}
+
+
+  .bandButtonsBack {
+    position: absolute;
+    color: #D62121;
+    text-align: center;
+    width: 101%;
+    font-weight: bold;
+    position: absolute;
+    font-size: 13px;
+    margin-top: 4px;
+    overflow: hidden;
+    font-weight: bold;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #D62121;
+    text-decoration: none;
+  }
+  
+  img.logo{
+    width: 5%;
+  }
+  .back{
+    background-color: rgba(100, 0, 0, 0.5);
+  }
+
+  /* Small devices (landscape phones, 544px and up) */
+@media (min-width: 360px) {  
+  
+  img.logo{
+    width: 50%;
+  }
+
+  body{
+    background-image: url("images/fondo.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+  }
+
+  .bandTitle{
+    color: #D62121;
+    font-weight: bold; 
+    font-size: 25px;
+  }
+
+  .bandInfo{
+    color: white;
+    font-weight: 400; 
+    font-size: 20px;
+  }
+
+  .titleShape1 {
+    font-size: 21px;
+    color: white;
+    text-align: center;
+    margin-left: -12%;
+    width: 80%;
+    height: 8vw;
+    background-color: #9e1919;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+  }
+
+  .titleShape2 {
+    font-size: 21px;
+    color: white;
+    text-align: center;
+    margin-left: 32%;
+    width: 80%;
+    height: 8vw;
+    background-color: #9e1919;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+  }
+
+  .frameVideo{
+    width: 100%;
+    height: 70vw;
+  }
+
+  .back{
+    background-color: rgba(100, 0, 0, 0);
+  }
+
+}
+
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+
+  img.logo{
+    width: 20%;
+  }
+
+  body{
+    background-image: url("images/fondo.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+  }
+
+  .bandTitle{
+    color: #D62121;
+    font-weight: bold; 
+    font-size: 30px;
+  }
+
+  .bandInfo{
+    color: white;
+    font-weight: 400; 
+    font-size: 30px;
+  }
+
+  .titleShape1 {
+    font-size: 38px;
+    color: white;
+    text-align: center;
+    margin-left: -12%;
+    width: 80%;
+    height: 7vw;
+    background-color: #9e1919;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+  }
+
+  .titleShape2 {
+    font-size: 38px;
+    color: white;
+    text-align: center;
+    margin-left: 32%;
+    width: 80%;
+    height: 7vw;
+    background-color: #9e1919;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+  }
+
+  .frameVideo{
+    width: 100%;
+    height: 60vw;
+  }
+
+  .back{
+    background-color: rgba(100, 0, 0, 0);
+  }
+
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+  img.logo{
+    width: 5%;
+  }
+
+  body{
+    background-image: url("images/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bandTitle{
+    color: #D62121;
+    font-weight: bold; 
+    font-size: 30px;
+  }
+
+  .bandInfo{
+    color: white;
+    font-weight: 400; 
+    font-size: 25px;
+  }
+
+  .titleShape1 {
+    font-size: 38px;
+    color: white;
+    text-align: center;
+    width: 40%;
+    margin-left: 0;
+    height: 3vw;
+    background-color: #9e1919;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+  }
+
+  .titleShape2 {
+    font-size: 38px;
+    color: white;
+    text-align: center;
+    width: 40%;
+    margin-left: 60%;
+    height: 3vw;
+    background-color: #9e1919;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+  }
+
+  .frameVideo{
+    width: 40%;
+    height: 20vw;
+  }
+
+  .back{
+    background-color: rgba(100, 0, 0, 0.5);
+  }
+
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+
+  img.logo{
+    width: 5%;
+  }
+
+  body{
+    background-image: url("images/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bandTitle{
+    color: #D62121;
+    font-weight: bold; 
+    font-size: 30px;
+  }
+
+  .bandInfo{
+    color: white;
+    font-weight: 400; 
+    font-size: 25px;
+  }
+
+  .titleShape1 {
+    font-size: 38px;
+    color: white;
+    text-align: center;
+    width: 40%;
+    margin-left: 0;
+    height: 3vw;
+    background-color: #9e1919;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+  }
+
+  .titleShape2 {
+    font-size: 38px;
+    color: white;
+    text-align: center;
+    width: 40%;
+    margin-left: 60%;
+    height: 3vw;
+    background-color: #9e1919;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+  }
+
+  .frameVideo{
+    width: 40%;
+    height: 20vw;
+  }
+
+  .back{
+    background-color: rgba(100, 0, 0, 0.5);
+  }
+
+}
